@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<link rel="stylesheet" href="css/style.css" type="">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+<style>
+.form{
+  background-color: darkcyan;
+margin-left: 100px;
+padding: 30px;
+text-align: center;
+
+
+
+}
+.button{
+  width: 600px;
+}
+.inputs-abd{
+  margin-left: 150px;
+}
+
+
+</style>
+</head>
+<body >
+        <nav class="navmain">
+                <div class="nav-wrapper">
+                
+                  <ul id="nav-mobile" class="center hide-on-med-and-down ">
+                    <li><a href="Add.html">     Add</a></li>
+                    <li><a href="Edit.html">Edit</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+    <div class="row" style="margin-left:250px">
+        <form class="col s9 form" onsubmit="adddata()" >
+          <h1 style="color:whitesmoke">Edit Todo</h1>
+          <hr>
+          <div class="row">
+            <div class="input-field col s7 inputs-abd" style="margin-left: 170px;color: white" >
+              <i class="material-icons prefix">mode_edit</i>
+             
+              <textarea id="title" class="materialize-textarea"
+              placeholder="Title" ></textarea>
+            
+           
+            </div>
+
+            <div class="input-field col s7" style="display:block;margin-left: 170px ;color: white" >
+                <i class="material-icons prefix">location_on</i>
+                <textarea id="location" class="materialize-textarea" placeholder="Location" ></textarea>
+               
+             
+              </div>
+              <div class="input-field col s7" style="margin-left: 170px;color: white">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="desc" class="materialize-textarea"
+                placeholder="Description" ></textarea>
+             
+             
+              </div>
+             
+              <div class=" col s7" style="margin-left: 120px">
+                
+<input type="submit" value="Update" class="waves-effect waves-light btn button">
+             
+          </div>
+        </form>
+      </div>
+            
+
+
+
+
+
+
+
+
+
+
+    
+
+    <script src="js/scripts.js" ></script>
+</body>
+</html>
